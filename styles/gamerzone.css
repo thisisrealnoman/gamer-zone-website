@@ -139,7 +139,7 @@ nav li a{
 
 .card-container{
     text-align: center;
-    /* margin-top: 3rem; */
+    margin-top: 3rem;
     padding: 0 5rem;
 }
 
@@ -330,6 +330,7 @@ button:hover{
         display: flex;
         flex-direction:column-reverse;
         padding: 0 50px;
+        
     }
 
     .banner-content{
@@ -362,6 +363,7 @@ button:hover{
 
     .card-container{
         padding: 30px;
+        
     }
 
     .play-online-container {
