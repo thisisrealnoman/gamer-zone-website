@@ -13,6 +13,14 @@
 
 main{
     max-width: 1440px;
+    /* margin: 0px 50px; */
+}
+
+.primary-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -74,11 +82,15 @@ nav li a{
 .banner-content{
     background-image: url('../images/Group 14.png');
     background-size: 100%;
-    padding: 150px 100px 0 200px;
+    padding: 8rem 5rem;
 }
 
 .banner-images{
-    padding: 0 200px 0 0;
+    padding: 5rem;
+}
+
+.banner-images img{
+    width: 100%;
 }
 
 .banner-title{
@@ -121,4 +133,205 @@ nav li a{
 
 .go-rouge{
     background-color: #4EC5F7;
+}
+
+/* card section */
+
+.card-container{
+    text-align: center;
+    /* margin-top: 3rem; */
+    padding: 0 5rem;
+}
+
+.card-content img{
+    width: 242px;
+    height: 300px;
+
+}
+
+.card-content{
+    display: flex;
+    gap: 2rem;
+}
+
+.card-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/* play-online styles */
+
+.play-online-container{
+    display: flex;
+    padding: 5rem 5rem 5rem 10rem;
+    gap: 6rem;
+}
+
+.play-online-images img{
+    width: 100%;
+}
+
+.play-online-images .barbie{
+    width: 50%;
+    position: relative;
+    right: 100px;
+    bottom: 200px;
+}
+
+.play-online-content{
+    padding: 3rem;
+}
+
+.play-online-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        box-shadow: 0;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .nav-bar > ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-logo {
+        justify-content: center;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 0 50px;
+    }
+
+    .banner-content{
+        padding: 30px;
+        
+    }
+
+    .banner-images{
+        padding: 30px;
+    }
+
+    .banner-images img{
+        width: 100%;
+    }
+
+    .goat{
+        font-size: 3.5rem;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+
+    /* card */
+
+    .card-content {
+        flex-direction: column;
+    }
+
+    .card-container{
+        padding: 30px;
+    }
+
+    .play-online-container {
+        padding: 2rem;
+        gap: 3rem;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .play-online-content{
+        text-align: center;
+    }
+
+    .play-online-title{
+        text-align: center;
+    }
+
+    .play-online-images .oppenheimer{
+        width: 75%;
+        position: relative;
+        left: 80px;
+    }
+
+    .play-online-images .barbie{
+        width: 50%;
+        position: relative;
+        bottom: 150px;
+        left: 5px;
+    }
+
+    .play-online-images{
+        
+    }
+}
+
+
+
+
+/* medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+    nav{
+        padding: 10px 50px;
+    }
+    
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+    
+    .banner-images img{
+        width: 100%;
+    }
+    
+    .banner-images {
+        padding: 0;
+    }
+
+    .banner-content {
+        padding: 30px;
+    }
+
+    .card-content {
+        flex-direction: column;
+    }
+
+    .play-online-container {
+        flex-direction: column;
+    }
+
+    .play-online-title{
+        text-align: center;
+    }
 }
