@@ -173,8 +173,9 @@ nav li a{
 
 .play-online-container{
     display: flex;
-    padding: 5rem 5rem 5rem 10rem;
+    padding: 5rem 5rem 0 10rem;
     gap: 6rem;
+    height:450px;
 }
 
 .play-online-images img{
@@ -198,7 +199,109 @@ nav li a{
     font-weight: 700;
 
 }
+/* buttons styles */
 
+
+.button-container .button{
+    justify-content: center;
+}
+
+.button-container{
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+
+.button{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+
+}
+
+.button-container .button img{
+    width: 30px;
+}
+
+button:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border: 2px solid #FF42A5;
+}
+
+
+.footer{
+    background-color: #0B0223;
+    color: #FFF;
+    text-align: center;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.footer-row-one{
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    height: 2rem;
+    gap: 1.25rem;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.footer-row-one > img{
+    width: 100%;
+}
+
+
+.footer-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer-nav li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-terms{
+    display: flex;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.footer-terms ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.footer-terms li a{
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+}
+
+.footer-terms > p{
+    color: rgba(255, 255, 255, 0.60);
+}
 
 
 
@@ -265,7 +368,7 @@ nav li a{
         padding: 2rem;
         gap: 3rem;
         flex-direction: column;
-        /* text-align: center; */
+        height: 950px;
     }
 
     .play-online-content{
@@ -289,10 +392,9 @@ nav li a{
         left: 5px;
     }
 
-    .play-online-images{
-        
-    }
-}
+
+
+
 
 
 
